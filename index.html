@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Formularios</title>
 </head>
 <body>
@@ -11,24 +12,24 @@
 
     <p>Placeholder</p>
 
-    <form>
-        <label>Nombre de tu mascota
-            <input type="text" placeholder="Nombre" required>
+    <form class="formulario">
+        <label class="formLabel">Nombre de tu mascota:
+            <input class="formInput" type="text" placeholder="Nombre" required>
         </label>
 
-        <label>Edad de su mascota
-            <input type="number" name="edadMascota" placeholder="Edad" required>
+        <label class="formLabel">Edad de su mascota:
+            <input class="formInput" type="number" name="edadMascota" placeholder="Edad" required>
         </label>
-        <label>Color de su mascota
-            <input type="color" name="color" id="color" required>
+        <label class="formLabel">Color de su mascota:
+            <input class="formInput" type="color" name="color" id="color" required>
         </label>
-        <label>Ingrese su mail
-            <input type="email" name="correoElectronico" placeholder="Correo electronico" required>
+        <label class="formLabel">Ingrese su mail:
+            <input class="formInput" type="email" name="correoElectronico" placeholder="Correo electronico" required>
         </label>
-        <label>Ingrese su contraseña
-            <input type="password" name="password" id="password" placeholder="Contraseña" required>
+        <label class="formLabel">Ingrese su contraseña:
+            <input class="formInput" type="password" name="password" id="password" placeholder="Contraseña" required>
         </label>
-        <input type="submit">
+        <input class="botonEnviar" type="submit">
     </form>
 </body>
 </html>
