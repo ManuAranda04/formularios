@@ -1,0 +1,15 @@
+.formulario{
+    background-color: rgb(36, 48, 60);
+    width: 40%;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px black;
+}
+
+label{
+    display: inline-block;
+}
+
+.formLabel{
+    width: 100%;
+    background-color: rgb(36, 48, 60)
+}
