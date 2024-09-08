@@ -8,9 +8,9 @@
     <title>Formularios</title>
 </head>
 <body>
-    <h1>Bienvenido a InstaPet</h1>
+    <h1 class="titulo">Bienvenido a InstaPet</h1>
 
-    <p>Placeholder</p>
+    <p class="parrafo">Bienvenido a InstaPet, la red social para mascotas. A continuación, ingresa los datos de tu mascota</p>
 
     <form class="formulario">
         <label class="formLabel">Nombre de tu mascota:
@@ -18,16 +18,20 @@
         </label>
 
         <label class="formLabel">Edad de su mascota:
-            <input class="formInput" type="number" name="edadMascota" placeholder="Edad" required>
+            <input class="formInput" type="number" placeholder="Edad" required>
         </label>
         <label class="formLabel">Color de su mascota:
-            <input class="formInput" type="color" name="color" id="color" required>
+            <input class="formInput" type="color" required>
+        </label>
+        <label>Genero de su mascota
+            <input type="radio" name="genero" value="macho">
+            <input type="radio" name="genero" value="hembra">
         </label>
         <label class="formLabel">Ingrese su mail:
-            <input class="formInput" type="email" name="correoElectronico" placeholder="Correo electronico" required>
+            <input class="formInput" type="email" placeholder="Correo electronico" required>
         </label>
         <label class="formLabel">Ingrese su contraseña:
-            <input class="formInput" type="password" name="password" id="password" placeholder="Contraseña" required>
+            <input class="formInput" type="password" placeholder="Contraseña" required>
         </label>
         <input class="botonEnviar" type="submit">
     </form>
